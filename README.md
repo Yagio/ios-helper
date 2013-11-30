@@ -14,7 +14,7 @@ iOS and Objective C classes utility and helper
 
         NSLog(@"Size: %ld", [col size]);
         NSLog(@"Content: %@", col);
-        NSLog(@"Empty? %@", [col isEmpty]?@"SIM":@"NÃO");
+        NSLog(@"Empty? %@", [col isEmpty]?@"YES":@"NO");
 
         NSLog(@"Contains 'bob'? %@", [col contains:@"bob"]?@"YES":@"NO");
 
