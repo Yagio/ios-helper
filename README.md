@@ -23,4 +23,14 @@ iOS and Objective C classes utility and helper
         NSLog(@"Empty? %@", [col isEmpty]?@"YES":@"NO");
 ```
 
+<h3>Date</h3>
+<h4>DateHelper<h4>
+        
+**Example**
+```objective-c
+    NSLog(@"Converted date %@", [DateHelper convert:YOUR_DATE usingPattern:@"dd/MM/yyyy"]);
+
+    NSLog(@"Today is %@", [DateHelper convertToday:@"dd/MM/yyyy"]);
+```
+
 Feel free to fork and contribute to this project.
