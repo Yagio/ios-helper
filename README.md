@@ -33,4 +33,19 @@ iOS and Objective C classes utility and helper
     NSLog(@"Today is %@", [DateHelper convertToday:@"dd/MM/yyyy"]);
 ```
 
+<h3>Plist</h3>
+<h4>PlistManager<h4>
+        
+**Example**
+```objective-c
+    // Move plist file (if not exists) from Bundle to Document Directory
+    PlistManager *plist = [[PlistManager alloc] init:@"Config"];
+
+    // Print Plist file content
+    [plist debug];
+
+    // Change a Plist File key/value
+    [plist changeValue:[[NSNumber alloc] initWithDouble:100.0] forKey:@"MyExampleNumber"];
+```
+
 Feel free to fork and contribute to this project.

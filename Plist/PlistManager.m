@@ -59,7 +59,7 @@
 
 -(void)debug {
     NSMutableDictionary *plist = [[NSMutableDictionary alloc] initWithContentsOfFile:plistFile.path];
-    NSLog(@"Plist content: %@", plist);
+    NSLog(@"DEBUG -> Plist content: %@", plist);
 }
 
 @end
